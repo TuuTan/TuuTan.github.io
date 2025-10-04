@@ -15,47 +15,66 @@
         * {
          box-sizing: border-box;
         }
-      img {width:100%;
-          max-width: 600px;}
-      .flex-container {display: flex;
-                       flex-direction: row;
-            }
-      .flex-container section { width:45%;
-                                margin:10px;
-                                padding:20px;
-                               }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Lisää tilaa elementtien väliin */
+    align-items: top; /* Keskittää pystysuunnassa */
+}
 
-     @media (max-width:600px){
-        .flex-container {
-                       flex-direction: column;
-            }
-        .flex-container section { width:100%;}
-     }
+
+@media (min-width: 701px) {
+    .flex-container{
+        padding-left: 10%;
+    }
+img#Tuukka {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40%; /* voit säätää esim. 10–20% */
+    height: auto;
+}
+
+       
+    
+}
+@media (max-width: 700px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-container section {
+        width: 100%;
+    }
+}
+
           h1{color: black;}
           nav{color: black;}
         </style>
     </head>
     <body>
+          <img src="Minä.jpg" alt="Hymyilevä mies metsässä" id="Tuukka">
          <nav>
             <a href="index.html">Etusivu</a>
             <a href="esittely.html">Esittely</a>
             <a href="osaaminen.html">Osaaminen</a>
         </nav>
-        <main>
-        <h1>Tuukka Tanni</h1>
-            <section>
-        <img src="Minä.jpg" alt="Hymyilevä mies metsässä" id="Tuukka" style="padding-left:5% ;">
-    </section>
+       
+<main>
+    <h1>Tuukka Tanni</h1>
+
     <article class="flex-container">
         <section>
-        <p> Terve! 
-        Olen Tuukka ja tervettuloa verkkosivulleni. Täältä löydät tietoa minusta sekä osaamisestani. Toivon, että onnistut löytämään etsimäsi. <br>
-        Yhteystiedot: <br>
-        Email - tuukkatanni@gmail.com <br>
-        puh - 0443079764</p>
-    </article>
-    </section>
-    </main>
+            <p>
+                Terve! Olen Tuukka ja tervetuloa verkkosivulleni.<br>Täältä löydät tietoa minusta, osaamisestani,<br>sekä yhteystietoni.<br>
+                Mukavaa päivänjatkoa!<br>
+                <br>Yhteystiedot:<br>
+                Email - tuukkatanni@gmail.com<br>
+                puh - 0443079764
+            </p>
+        </section>
+        <section>
+          
+</main>
 
     </body>
 </html>
