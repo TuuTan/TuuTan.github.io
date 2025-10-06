@@ -10,16 +10,14 @@ background-color: antiquewhite;/*taustan väri*/}
 }
                                                 /* lataa fontit*/
 
-h1{font-size: 4vw;
+h1{margin-left: 40%;
+font-size: 5vw;
 font-family:Roboto;
 color: rgb(423, 32, 52);
 color: rgb(0, 0, 0);}
-h2{font-size: 2vw;
-font-family:Roboto;
-color: rgb(423, 32, 52);
-color: rgb(0, 0, 0);}
-p{font-size: 1,3vw;
-font-family: RobotoSlab;}
+p{font-size: 2vw;
+font-family: RobotoSlab;
+}
 pre{
 
     font-family: RobotoSlab;

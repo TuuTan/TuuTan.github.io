@@ -1,5 +1,5 @@
 body{color: black;
-background-color: white;/*taustan väri*/} 
+background-color: antiquewhite;/*taustan väri*/} 
 @font-face {
     font-family:Roboto;
     src: url(Roboto-VariableFont_wdth\,wght.ttf);
@@ -10,7 +10,7 @@ background-color: white;/*taustan väri*/}
 }
                                                 /* lataa fontit*/
 
-h1{margin-left: 100px;
+h1{margin-left: 40%;
 font-size: 5vw;
 font-family:Roboto;
 color: rgb(423, 32, 52);
