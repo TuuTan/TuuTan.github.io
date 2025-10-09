@@ -10,6 +10,7 @@
         <title>Tuukka Tanni</title>
         <!--linkkki ulkoinen css tiedosto-->
         <link href="tyyli.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
         <!--sivun sisäinen tyyli-->
         <style>
         * {
@@ -26,15 +27,20 @@
 
 @media (min-width: 701px) {
     .flex-container section {
+        position: relative;
+        margin-top: 5%;
+        right: 2%;
        width: 62%;
         border: 5px solid #626262;
          border-radius: 5%;
          background-color: #8bc096;
     }
 img#Tuukka {
-    width: 38%; /* voit säätää esim. 10–20% */
+    width: 34%; 
     height: auto;
-    margin-top: -10%;
+  margin-top: -5%;
+  margin-left: 0.8%;
+    border:5px solid #626262;
 }
 
        
@@ -52,16 +58,15 @@ img#Tuukka {
     }
 }
 
-          h1{color: black;}
-          nav{color: black;}
+       
         </style>
     </head>
     <body>
-         <nav>
-            <a href="index.html">Etusivu</a>
-            <a href="esittely.html">Esittely</a>
-            <a href="osaaminen.html">Osaaminen</a>
-        </nav>
+        <div class="w3-bar w3-antiquewhite">
+              <a href="index.html"class="w3-bar-item w3-button w3-mobile w3-grey">Etusivu</a>
+            <a href="esittely.html"class="w3-bar-item w3-button w3-mobile">Esittely</a>
+            <a href="osaaminen.html" class="w3-bar-item w3-button w3-mobile">Osaaminen</a>
+        </div>
        
 <main>
     <h1>Tuukka Tanni</h1>

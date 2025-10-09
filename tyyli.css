@@ -10,7 +10,7 @@ background-color: antiquewhite;/*taustan väri*/}
 }
                                                 /* lataa fontit*/
 
-h1{margin-left: 40%;
+main h1{margin-left: 35%;
 font-size: 5vw;
 font-family:Roboto;
 color: rgb(423, 32, 52);
@@ -22,8 +22,10 @@ pre{
     font-family: RobotoSlab;
 }
 
-#Tuukka {width: 90%;}
+#Tuukka {width: 90%;
+            }
 
 
 h2{color: black;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
