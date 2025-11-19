@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joulukalenteri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(6, 80px);
+            grid-template-rows: repeat(4, 80px);
+            gap: 10px;
+            background-color: #694b21;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .door {
+            background-color: green;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 2px 2px black;
+        }
+        
+        .redluukku {
+            background-color: #a82f2f;
+        }
+        
+        .goldluukku {
+            background-color: #b38c22;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="door redluukku">1</div>
+        <div class="door">2</div>
+        <div class="door redluukku">3</div>
+        <div class="door">4</div>
+        <div class="door redluukku">5</div>
+        <div class="door">6</div>
+
+        <div class="door">7</div>
+        <div class="door redluukku">8</div>
+        <div class="door">9</div>
+        <div class="door redluukku">10</div>
+        <div class="door">11</div>
+        <div class="door redluukku">12</div>
+
+        <div class="door redluukku">13</div>
+        <div class="door">14</div>
+        <div class="door redluukku">15</div>
+        <div class="door">16</div>
+        <div class="door redluukku">17</div>
+        <div class="door">18</div>
+
+        <div class="door">19</div>
+        <div class="door redluukku">20</div>
+        <div class="door">21</div>
+        <div class="door redluukku">22</div>
+        <div class="door">23</div>
+        <div class="door goldluukku">24</div>
+    </div>
+</body>
+</html>
